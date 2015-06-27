@@ -1,0 +1,501 @@
+   59  ls
+   60  ls | grep *.iso
+   61  ls | grep fuel
+   62  ls | grep .iso
+   63  md5 MirantisOpenStack-6.0.iso
+   64  ssh root@10.20.0.2
+   65  history
+   66  ls /dev/tty.*
+   67  scren /dev/tty.usbserial 
+   68  screen /dev/tty.usbserial 
+   69  screen /dev/tty.usbserial 9600
+   70  screen /dev/tty.usbserial 9600
+   71  ps aux | grep screen
+   72  ls /dev/tty
+   73  ls /
+   74  ls /dev/tty.*
+   75  screen /dev/tty.usbserial 9600
+   76  ls of -i /dev/tty.*
+   77  lsof -i | grep  /dev/tty
+   78  lsof -i
+   79  ps aux | grep tty
+   80  kill -9 564
+   81  ps aux | grep tty
+   82  screen /dev/tty.usbserial 9600
+   83  ssh root@10.20.0.2
+   84  cd Downloads/
+   85  ls
+   86  scp rubygems-2.4.8.zip root@10.20.0.2:/tmp
+   87  ssh root@10.20.0.2
+   88  unzip rubygems-2.4.8.zip 
+   89  ls
+   90  scp -r rubygems-2.4.8/ root@10.20.0.2:/tmp
+   91  ls
+   92  ssh root@10.20.0.2
+   93  unzip fog-master.zip 
+   94  scp -r fog-master root@10.20.0.2:/tmp
+   95  ssh root@10.20.0.2
+   96  gem fetch fog
+   97  ls
+   98  scp fog-1.31.0.gem root@10.20.0.2:/tmp
+   99  ssh root@10.20.0.2
+  100  ls
+  101  cd rubygems-2.4.8/
+  102  ls
+  103  cat Manifest.txt 
+  104  find . -iname requirements
+  105  find . -iname require
+  106  find . -iname dep
+  107  find . -iname dep*
+  108  find . -iname req*
+  109  ls
+  110  cd lib/rubygems
+  111  ls
+  112  cat requirement.rb 
+  113  ls
+  114  cat dependency_list.rb 
+  115  exit
+  116  ps aux | grep screen
+  117  ps aux | grep screen
+  118  ps aux | grep screen
+  119  ps aux | grep dev
+  120  kill -9 600
+  121  ps aux | grep dev
+  122  ps aux | grep dev
+  123  ps aux | grep screen
+  124  ssh root@23.246.245.51
+  125  cd Downloads/
+  126  ls
+  127  mkdir tempy
+  128  cd tmp
+  129  cd tempy/
+  130  ls
+  131  get fetch fog-voxel
+  132  gem fetch fog-voxel
+  133  scp fog-voxel-0.1.0.gem root@10.20.0.2:/tmp
+  134  gem fetch fog-vmfusion
+  135  scp fog-vmfusion-0.1.0.gem root@10.20.0.2:/tmp
+  136  gem fetch fog-terremark
+  137  scp fog-terremark-0.1.0.gem root@10.20.0.2:/tmp
+  138  scp fog-storm_on_demand  root@10.20.0.2:/tmp
+  139  gem fetch fog-storm_on_demand
+  140  scp fog-storm_on_demand  root@10.20.0.2:/tmp
+  141  scp fog-storm_on_demand-0.1.1.gemd  root@10.20.0.2:/tmp
+  142  scp fog-storm_on_demand-0.1.1.gem  root@10.20.0.2:/tmp
+  143  gem fetch fog-softlayer
+  144  scp fog-softlayer-0.4.6.gem  root@10.20.0.2:/tmp
+  145  gem fetch fog-serverlove
+  146  scp fog-serverlove-0.1.2.gem root@10.20.0.2
+  147  scp fog-serverlove-0.1.2.gem root@10.20.0.2
+  148  scp fog-serverlove-0.1.2.gem root@10.20.0.2:/tmp
+  149  gem fetch sakuracloud
+  150  gem fetch fog-sakuracloud
+  151  scp fog-sakuracloud-1.0.1.gem root@10.20.0.2:/tmp
+  152  ls
+  153  vim deplist.txt
+  154  for i in deplist.txt: do gem fetch $i;done
+  155  for i in `deplist.txt`: do gem fetch $i;done
+  156  for i in `cat deplist.txt`: do gem fetch $i;done
+  157  for i in deplist.txt: do gem fetch $i;done
+  158  for i in deplist.txt: do gem fetch $i; done
+  159  for i in deplist.txt; do gem fetch $i; done
+  160  for i in `deplist.txt`; do gem fetch $i; done
+  161  for i in `cat deplist.txt`; do gem fetch $i; done
+  162  scp *.gem root@10.20.0.2:/tmp
+  163  gem fetch nokogiri
+  164  scp *.gem root@10.20.0.2:/tmp
+  165  gem fetch ipaddress
+  166  scp *.gem root@10.20.0.2:/tmp
+  167  germ fetch fission
+  168  gem fetch fission
+  169  scp *.gem root@10.20.0.2:/tmp
+  170  gem fetch inflecto
+  171  scp *.gem root@10.20.0.2:/tmp
+  172  gem fetch mini_portfile
+  173  gem fetch mini_portile
+  174  scp *.gem root@10.20.0.2:/tmp
+  175  gem fetch multi_json
+  176  scp *.gem root@10.20.0.2:/tmp
+  177  gem fetch net-ssh
+  178  scp *.gem root@10.20.0.2:/tmp
+  179  gem fetch net-scp
+  180  gem fetch 2
+  181  scp *.gem root@10.20.0.2:/tmp
+  182  gem fetch mime-types
+  183  scp *.gem root@10.20.0.2:/tmp
+  184  gem fetch formatador
+  185  scp *.gem root@10.20.0.2:/tmp
+  186  gem fetch excon
+  187  scp *.gem root@10.20.0.2:/tmp
+  188  gem fetch builder
+  189  scp *.gem root@10.20.0.2:/tmp
+  190  gem fetch CFPropertyList
+  191  scp *.gem root@10.20.0.2:/tmp
+  192  gem help fetch
+  193  gem fetch net-scp -v 1.1
+  194  ls | grep net
+  195  ls
+  196  ls | lrt
+  197  ls -lh
+  198  gem search fog-core
+  199  gem search nokogir
+  200  gem search nokogiri
+  201  ls | grep noko
+  202  gem fetch nokogiri -v 1.5.11
+  203  ls  | grep nok
+  204  rm -rf nokogiri-1.6.6.2.gem 
+  205  scp *.gem root@10.20.0.2:/tmp
+  206  gem search gcc
+  207  ssh root@10.20.0.2
+  208  screen
+  209  ssh root@10.20.0.2
+  210  cd Downloads/
+  211  ls
+  212  ls
+  213  ls | grep fog
+  214  cd fog-master
+  215  ls
+  216  cd ..
+  217  ls
+  218  history
+  219  find / -iname fog-store
+  220  cd tempy/
+  221  ls
+  222  ssh root@192.168.88.240
+  223  ssh admin@192.168.88.240
+  224  ssh admin@192.168.88.240
+  225  ssh root@192.168.88.240
+  226  ssh root@10.20.0.2
+  227  ssh admin@192.168.88.240
+  228  ssh root@10.20.0.2
+  229  ssh root@10.20.0.2
+  230  ssh admin@192.168.88.240
+  231  ssh root10.20.0.2
+  232  ssh root@10.20.0.2
+  233  ssh root@10.20.0.2
+  234  ssh root@10.20.0.2
+  235  /Volumes/ESXI/ISOLINUX.CFG ; exit;
+  236  ssh root@10.20.0.2
+  237  diskutil list
+  238  diskutil list
+  239  diskutil umount /dev/disk2
+  240  diskutil umountDisk /dev/disk2
+  241  diskutil list
+  242  ls
+  243  cd Downloads/
+  244  ls
+  245  ls | grep *.iso
+  246  ls 
+  247  ls | grep .iso
+  248  ls | grep .iso
+  249  ls -lh| grep .iso
+  250  fdisk -e /dev/disk2
+  251  sudo fdisk -e /dev/disk2
+  252  sudo fdisk -e /dev/disk2
+  253  sudo fdisk /dev/disk2
+  254  sudo fdisk -e /dev/disk2
+  255  ls
+  256  vim /Volumes/ESXI/ISOLINUX.CFG
+  257  mv /Volumes/ESXI/ISOLINUX.CFG /Volumes/ESXI/SYSLINUX.CFG
+  258  ssh root@10.20.0.2
+  259  du -hsc
+  260  du -hsc /
+  261  ssh root@10.20.0.2
+  262  ssh root@10.20.0.2
+  263  ssh root@10.20.0.2
+  264  ssh root@10.20.0.2
+  265  ssh root@10.20.0.2
+  266  ssh root@10.20.0.2
+  267  ls
+  268  cd Desktop/
+  269  ls
+  270  pwd
+  271  mkdir pkgs
+  272  cd pkgs/
+  273  wget -r http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  274  wget -R http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  275  wget -R https://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  276  wget -R https://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  277  wger -r https://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  278  wget -r https://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  279  wget -r --no-check-certificate  https://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/http://mirror.fuel-infra.org/fwm/6.0/updates/centos/os/x86_64/Packages/
+  280  wget -r --no-check-certificate http://fuel-repository.mirantis.com/fwm/6.0/updates/centos/os/x86_64/Packages/
+  281  history | grep scp
+  282  ls
+  283  cd fuel-repository.mirantis.com/
+  284  ls
+  285  cd fwm/
+  286  ls
+  287  cd 6.0/
+  288  ls
+  289  cd updates/
+  290  ls
+  291  cd centos/
+  292  ls
+  293  cd os/
+  294  ls
+  295  cd x86_64/
+  296  ls
+  297  cd Packages/
+  298  ls
+  299  history | grep scop
+  300  history | grep scp
+  301  scp *.rpm root@10.20.0.2:/var/www/nailgun/updates/
+  302  scp *.rpm root@10.20.0.2:/var/www/nailgun/updates/
+  303  ssh root@10.20.0.2
+  304  cd Desktop/
+  305  ;s
+  306  ls
+  307  cd pkgs/
+  308  ls
+  309  rm -rf fuel-repository.mirantis.com/
+  310  rsync -vap --chmod=Dugo+x rsync://fuel-repository.mirantis.com/mirror/fwm/6.0/updates/  .
+  311  rsync -vap -e "ssh -A root@root.me ssh" --chmod=Dugo+x rsync://fuel-repository.mirantis.com/mirror/fwm/6.0/updates/  root@10.20.02:/var/www/nailgun/updates/
+  312  ls
+  313  pwd
+  314  cd ..
+  315  ls
+  316  cd pkgs/
+  317  ls
+  318  cd centos/
+  319  ls
+  320  cd ..
+  321  ls
+  322  ls -lr centos/
+  323  ls -lR centos/
+  324  ls
+  325  ls -lR centos/
+  326  ls
+  327  rm -rf ubuntu/
+  328  ls
+  329  tar -zxcf packages_cent.gz centos/
+  330  tar -zvcf packages_cent.gz centos/
+  331  ls
+  332  scp packages_cent.gz root@10.20.0.2:/tmp
+  333  ls -lR centos/ls
+  334  ls
+  335  ls -lR centos/
+  336  mkdir something;touch 1 2 3
+  337  ls
+  338  rm 1 2 3
+  339  ls
+  340  rm something/
+  341  ls
+  342  rmdir something/
+  343  ls
+  344  mkdir something;cd something;touch 1 2 3
+  345  man rsync
+  346  ls
+  347  cd ..
+  348  ls
+  349  rsync -avh something/ root@10.20.0.2:/tmp
+  350  ssh root@10.20.0.2
+  351  ssh root@10.20.0.2
+  352  ssh administrator@192.168.88.242
+  353  ssh root@192.168.88.242
+  354  knife
+  355  brew search knife
+  356  brew search chef
+  357  git
+  358  git init
+  359  ls
+  360  pwd
+  361  cd Desktop/
+  362  cd ..
+  363  ls
+  364  mkdir git
+  365  cd git/
+  366  mkdir emma
+  367  cd emma/
+  368  git init
+  369  cd ..
+  370  ssh-keygen -t rsa -b 4096 -C "droidomz@gmail.com"
+  371  ls
+  372  cat emma/
+  373  cat emma/
+  374  ls -al
+  375  cd /Users/omarmunoz/
+  376  cd .ssh/
+  377  ls
+  378  ls -lh
+  379  cat id_rsa.pub 
+  380  ssh git@github.com:droidomz/emma.git
+  381  ssh git@github.com:droidomz/emma.git
+  382  ls
+  383  cd /gi
+  384  cd ~/git/
+  385  ls
+  386  ssh git@github.com:droidomz/emma.git
+  387  git@github.com:droidomz/emma.git
+  388  ssh -T git@github.com:droidomz/emma.git
+  389  ssh -T git@github.com
+  390  ssh -T git@github.com:droidomz/emma.git
+  391  ssh git@github.com:droidomz/emma.git
+  392  git@github.com:droidomz/emma.git
+  393  ssh -T git@github.com
+  394  ls
+  395  pwd
+  396  cd emma/
+  397  ls
+  398  pwd
+  399  echo "# emma" >> README.md
+  400  git init
+  401  git add README.md
+  402  git commit -m "first commit"
+  403  git config --global user.name "Omar Munoz
+  404  c~czccz
+  405  czxczc
+  406  "
+  407  git config --global user.name "Omar Munoz"
+  408  git config --global user.email "droidomz@gmail.com"
+  409  git add README.md
+  410  git commit -m "first commit"
+  411  git remote add origin https://github.com/droidomz/emma.git
+  412  git push -u origin master
+  413  ls
+  414  brew search gitk
+  415  cask search gitk
+  416  cask
+  417  brew cask search gitk
+  418  brew cask search git
+  419  brew install git
+  420  gitk
+  421  ls
+  422  cd Desktop/
+  423  ls
+  424  mkdir something
+  425  cd something/
+  426  ls
+  427  env > env.txt
+  428  cat env.txt 
+  429  ls
+  430  vim env.txt 
+  431  grep -i "'/''"
+  432  grep -i "'/''" env.txt 
+  433  grep -i "'/'''" env.txt 
+  434  grep -i "'/' ''" env.txt 
+  435  grep -i "'/' '' " env.txt 
+  436  grep -i "\'" env.txt 
+  437  grep -i "\'\'" env.txt 
+  438  grep -i "\' \'" env.txt 
+  439  grep -i "\*'" env.txt 
+  440  grep -i "\*'*" env.txt 
+  441  grep -i "*\'*" env.txt 
+  442  cat env.txt 
+  443  vim env.txt 
+  444  grep -i "*\'*" env.txt 
+  445  grep -i "\*'*" env.txt 
+  446  grep -i "\' \'" env.txt 
+  447  grep -i "\'\'" env.txt 
+  448  brew search knife
+  449  brew search chef
+  450  cd ~/git/emma/
+  451  git clone ssh://git@github.com:droidomz/emma.git
+  452  git clone ssh://droidomz@github.com:droidomz/emma.git
+  453  find / -iname gitconfig
+  454  sudo find / -iname gitconfig
+  455  git config --global core.editor vim
+  456  find / -iname .gitconfig
+  457  sudo find / -iname .gitconfig
+  458  cat /Users/omarmunoz/.gitconfig 
+  459  git config color.ui true
+  460  git status
+  461  ls
+  462  vim README.md 
+  463  git add README.md 
+  464  git add -p
+  465  vim README.md 
+  466  git add -p
+  467  ls
+  468  vim README.md 
+  469  git add -p README.md 
+  470  vim README.md 
+  471  git add -p README.md 
+  472  vim README.md 
+  473  git add -p README.md 
+  474  git status
+  475  git log
+  476  git help commit
+  477  git commit -m "this is just a modification to readme"
+  478  git status
+  479  echo "new change" >> README.md 
+  480  git add -p README.md 
+  481  git add -p README.md 
+  482  echo README.md 
+  483  cat README.md 
+  484  cat README.md 
+  485  vim README.md 
+  486  git status
+  487  git add -p README.md 
+  488  vim README.md 
+  489  git heat
+  490  git head
+  491  git HEAD
+  492  git --help
+  493  ssh root@10.20.0.2
+  494  pwd
+  495  ls
+  496  git log -n 100
+  497  git log --stat
+  498  git log --stat
+  499  git status
+  500  cat /var/log/
+  501  ifconfig
+  502  man tcpdump
+  503  tcpdump -i en0 
+  504  git branch -a
+  505  find / -iname git | grep config
+  506   sudo find / -iname git | grep config
+  507  cd /Users/omarmunoz/.config/git/
+  508  ls
+  509  cd .
+  510  ls
+  511  cd .
+  512  cd ..
+  513  ls
+  514  gitk &
+  515  history  | grep git
+  516  history
+  517  history |less
+  518  cd ~
+  519  sl
+  520  ls
+  521  cd git/
+  522  ls
+  523  cd emma/
+  524  ls
+  525  git status
+  526  git diff
+  527  git commit -m "new update" 
+  528  git origin push 
+  529  git push origin emma
+  530  git push origin 
+  531  history | grep git  | grep global
+  532  git config --global user.name "Omar Munoz
+"
+  533  git config --global user.name "Omar Munoz"
+  534  git config --global user.email "droidomz@gmail.com"
+  535  git status
+  536  gitk
+  537  touch env.txt
+  538  env > env.txt
+  539  cat env.txt 
+  540  git add env.txt 
+  541  git status
+  542  git push origin emma
+  543  git commit -m "this is just an env text file"
+  544  git push origin
+  545  git commit -m "this is just an env text file"
+  546  git push origin
+  547  git status
+  548  git status
+  549  git branch newworld
+  550  git status
+  551  git rebase --interactive
+  552  man git
+  553  git head
+  554  git --help |grep -i head
+  555  git checkout newworld
+  556  ls
+  557  touch stuff.txt
+  558  history > stuff.txt
